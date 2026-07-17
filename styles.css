@@ -202,10 +202,10 @@ transition: all 0.3s ease;
    transform: translateY(-3px);
 }
 
-@media (max-width:768px){
-
-.navbar{
-    padding:15px 20px;
+.nav-links{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
 }
 
 .logo{
